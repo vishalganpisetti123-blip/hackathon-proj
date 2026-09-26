@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "FieldProof",
+    "slug": "fieldproof",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "android": {
+      "package": "com.polyglotpulse.fieldproof",
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ],
+      "allowBackup": false
+    },
+    "plugins": [
+      "expo-sqlite",
+      "expo-secure-store",
+      [
+        "llama.rn",
+        {
+          "enableOpenCLAndHexagon": false
+        }
+      ],
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "usesCleartextTraffic": true
+          }
+        }
+      ],
+      "expo-audio",
+      "expo-asset"
+    ]
+  }
+}

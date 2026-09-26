@@ -1,0 +1,10 @@
+{
+  "entries": 48905,
+  "ambiguous_excluded": 636,
+  "source_sha256": "08f1c2841f4d02fcc2a56362f7760ec16fc52d8a199029c68d44024ab0d22c1a",
+  "artifact_sha256": "d777a2a2bd7bfb4b3f9f5afe7cd8ac19b3799fe797dddeaa5e31e639b49b3ec6",
+  "example": {
+    "vastundi": "వస్తుంది"
+  },
+  "limitation": "Spelling data only; suggestions do not measure or improve acoustic ASR by themselves."
+}

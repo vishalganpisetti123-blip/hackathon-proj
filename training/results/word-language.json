@@ -1,0 +1,41 @@
+{
+  "train_words": 54000,
+  "test_words": 3000,
+  "accuracy": 0.8,
+  "accepted_coverage": 0.7933333333333333,
+  "accepted_accuracy": 0.8684873949579832,
+  "per_language": {
+    "en": {
+      "precision": 0.8356164383561644,
+      "recall": 0.854,
+      "f1-score": 0.8447082096933729,
+      "support": 1000.0
+    },
+    "hi": {
+      "precision": 0.7624861265260822,
+      "recall": 0.687,
+      "f1-score": 0.7227774855339295,
+      "support": 1000.0
+    },
+    "te": {
+      "precision": 0.797585886722377,
+      "recall": 0.859,
+      "f1-score": 0.8271545498314877,
+      "support": 1000.0
+    },
+    "accuracy": 0.8,
+    "macro avg": {
+      "precision": 0.7985628172015412,
+      "recall": 0.7999999999999999,
+      "f1-score": 0.7982134150195966,
+      "support": 3000.0
+    },
+    "weighted avg": {
+      "precision": 0.7985628172015411,
+      "recall": 0.8,
+      "f1-score": 0.7982134150195968,
+      "support": 3000.0
+    }
+  },
+  "limitations": "Isolated romanized words, not code-switched speech. Shared spellings excluded from evaluation. Uncalibrated scores; never ASR confidence."
+}

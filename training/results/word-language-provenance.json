@@ -1,0 +1,9 @@
+{
+  "seed": 42,
+  "training_hash": "531c4a67a4c0c48be5c3528457df4f783b95c1aae55debdfa760d72102af415e",
+  "test_hash": "cc16bd4e5490b777219a18151e55acacf930a2016b80a7d3f87a4d888817a01d",
+  "dataset_hashes": {
+    "hin.zip": "208c2d1b128234e6dc777b750779b4f5e6214ab43244039349b530bf9868bdaf",
+    "tel.zip": "08f1c2841f4d02fcc2a56362f7760ec16fc52d8a199029c68d44024ab0d22c1a"
+  }
+}

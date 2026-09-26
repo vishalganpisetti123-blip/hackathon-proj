@@ -1,0 +1,43 @@
+{
+  "model": "generic",
+  "runtime": "whisper.cpp CLI",
+  "settings": "language=te no_timestamps CPU greedy beam_size=1 best_of=1 threads=2",
+  "metrics": {
+    "clips": 6,
+    "wer": 1.5308641975308641,
+    "cer": 1.1758064516129032
+  },
+  "predictions": [
+    {
+      "id": "te_in-test-1912",
+      "reference": "చిన్న ద్వీపాలలో చాలా వరకు స్వతంత్ర దేశాలు, లేదా ఫ్రాన్స్ తో సంబంధం కలిగి ఉన్నాయి, ఇంకా వీటిని  లగ్జరీ బీచ్ రిసార్ట్ స్ అని పిలుస్తారు.",
+      "hypothesis": "equally along the island canal also the muslim resources we have in the opening of Los Red� ochre are still available as a luxury resort, all of which 도 13,000 rupees."
+    },
+    {
+      "id": "te_in-test-1908",
+      "reference": "కొన్ని క్రియలు ఆబ్జెక్టుల మధ్య తేడాను గుర్తించడానికి ఇది ఒక ముఖ్యమైన మార్గం.",
+      "hypothesis": "Armor stars and objects carry many different environments in this event, which isdle an important."
+    },
+    {
+      "id": "te_in-test-1666",
+      "reference": "మీరు మీ స్వంతం ఆలోచనలతో కాకుండా ప్రభుత్వాల సలహా కూడా తీసుకోవాలని అనుకోవచ్చు, అయితే వారి సలహా వారి పౌరుల కోసం రూపొందించబడింది.",
+      "hypothesis": "mîrù mîs funtham aloch analitho kakona prabuddhwala salha koda tîsiko wala nîn anukov achu, aîte vāri salha dhwari pārula koṣam rūpaṁ thînchabadin di."
+    },
+    {
+      "id": "te_in-test-1870",
+      "reference": "ఈ దృశ్యాలు పిరమిడ్లపై ప్రదర్శించబడతాయి మరియు వేరే పిరమిడ్లను వెలిగించబడ్డాయి.",
+      "hypothesis": "but these stars chapters are transmitted with miracles and other miracles are 은摇 honey also did be predicted was gone with a doubt and other miracles also fulfilled,"
+    },
+    {
+      "id": "te_in-test-2002",
+      "reference": "పరికరాన్ని గాల్లో కదిలించడం ద్వారా వీడియో గేమ్స్‌లో  యాక్షన్లు మరియు కదలికలను నియంత్రించడానికి ఇది  ఆటగాళ్లకు వీలు కల్పిస్తుంది",
+      "hypothesis": "परिकरानि गाल्लो कदलिएंचदंद्दारा वीड़ो गेमस्लो अक्ष्यन्लो मरियो कदलिकलानो नियंट्रिएंचदाने कि इदि अटगाल्लाको वील्कल्बिस्तूंदि"
+    },
+    {
+      "id": "te_in-test-2006",
+      "reference": "కాల్షియం, పొటాషియం వంటి మూలకాలను లోహాలుగా పరిగణిస్తారు. వెండి, బంగారం వంటి లోహాలు కూడా ఉన్నాయి.",
+      "hypothesis": "याल्श्यम पटाश्यम भी भी बागारम भी लोहा"
+    }
+  ],
+  "limitations": "Six clean FLEURS read-speech clips; related benchmark family used by source model, not a physical Android run."
+}

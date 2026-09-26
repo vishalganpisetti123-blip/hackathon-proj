@@ -1,0 +1,12 @@
+{
+  "name": "polyglot-pulse",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "lint": "npm --prefix frontend run lint",
+    "test:frontend": "npm --prefix frontend run test",
+    "test:mobile": "npm --prefix mobile test",
+    "mobile:android": "npm --prefix mobile run android:release"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "model": "openai/whisper-small",
+  "generation": "forced selected language; greedy",
+  "metrics": {
+    "fr": {
+      "clips": 6,
+      "wer": 0.16666666666666666,
+      "cer": 0.08171206225680934
+    }
+  },
+  "predictions": [
+    {
+      "id": "fr_fr-test-1987",
+      "language": "fr",
+      "reference": "L’accident a eu lieu en terrain montagneux, et il semblerait que cela ait été causé par un incendie malveillant.",
+      "hypothesis": " L'accident a eu lieu en terrain montagneux et il semblerait que cela était causé par un incendie malveillant."
+    },
+    {
+      "id": "fr_fr-test-1857",
+      "language": "fr",
+      "reference": "Il a ajouté qu’« on ne devrait cependant pas leur demander d’assumer des obligations qui dépassent leur stade de développement, leur responsabilité et leurs capacités. »",
+      "hypothesis": " Il a ajouté qu'on ne devrait cependant pas leur demander d'assumer des obligations qui dépassent leur stade de développement, de responsabilité et de capacité."
+    },
+    {
+      "id": "fr_fr-test-1913",
+      "language": "fr",
+      "reference": "Le rugissement du tigre ne ressemble pas au rugissement ample du lion, mais plutôt à une phrase dont les mots seraient des cris et des grondements.",
+      "hypothesis": " Rougissement du tigre ne ressemble pas au rougissement en plus du riant, mais plutôt à une phrase dans les mots serait des cris et des grondements."
+    },
+    {
+      "id": "fr_fr-test-2004",
+      "language": "fr",
+      "reference": "Le même mois, un autre avion de ligne a fait une sortie de piste à Mashhad et a heurté un mur, tuant ainsi dix-sept personnes.",
+      "hypothesis": " Le même mois, un autre avion de ligne a fait une sortie de piste à Machade et heurtait un mur, tuant ainsi 17 personnes."
+    },
+    {
+      "id": "fr_fr-test-1853",
+      "language": "fr",
+      "reference": "Giancarlo Fisichella a perdu le contrôle de sa voiture et a terminé la course peu après le démarrage.",
+      "hypothesis": " Jean-Carlo Fitiéla a perdu le contrôle de sa voiture et a terminé la course peu après le démarrage."
+    },
+    {
+      "id": "fr_fr-test-1929",
+      "language": "fr",
+      "reference": "Malgré le net avantage de Del Potro pendant le deuxième set, il a fallu passer par un tie-break une fois que le score a atteint 6-6.",
+      "hypothesis": " Malgré le net avantage de Delpho trop pendant le 2ème set, il a fallu passer par un tie-break une fois que le score a atteint 6-6."
+    }
+  ],
+  "limitations": "Six clean read-speech clips per language. No noise, code switching, spontaneous speech, or device-level quantization; WER is not comparable across non-space-delimited scripts."
+}

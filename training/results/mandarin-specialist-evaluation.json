@@ -1,0 +1,42 @@
+{
+  "model": "Jingmiao/whisper-small-chinese_base",
+  "language": "zh",
+  "metrics": {
+    "clips": 6,
+    "wer": 6.8,
+    "cer": 0.875
+  },
+  "predictions": [
+    {
+      "id": "cmn_hans_cn-test-1906",
+      "reference": "“这并不是告别。这是一个篇章的结束，也是新篇章的开始。”",
+      "hypothesis": "这 并 不 是 告 别 这 是 一 个 偏 张 的 结 束 也 是 新 偏 张 的 开 始"
+    },
+    {
+      "id": "cmn_hans_cn-test-2006",
+      "reference": "钙、钾等元素属于金属，银和金等元素当然也是金属。",
+      "hypothesis": "盖 夹 等 元 数 属 于 金 数 银 合 金 等 元 数 当 然 也 是 金 数"
+    },
+    {
+      "id": "cmn_hans_cn-test-1883",
+      "reference": "桥下垂直净空 15 米。该项目于 2011 年 8 月完工，但直到 2017 年 3 月才开始通车。",
+      "hypothesis": "桥 下 垂 直 净 空 15 米 该 项 目 于 2011 年 8 月 完 工 但 直 到 2017 年 3 月 才 开 始 通 车"
+    },
+    {
+      "id": "cmn_hans_cn-test-1852",
+      "reference": "\"适当使用博客，\"可以使学生变得更善于分析和进行思辨；通过积极回应网络材料，学生们可以在他人文章的上下文语境中找到自己的立场，并能够针对特定问题提出自己的观点（Oravec, 2002）。\"",
+      "hypothesis": "适 当 使 用 博 客 可 以 使 学 生 变 得 更 善 于 分 析 和 进 行 思 变 通 过 积 极 回 移 网 落 材 料 学 生 们 可 以 在 他 人 的 文 章 的 上 下 文 语 经 中 找 到 自 己 的 立 场 并 能 够 征 对 特 定 问 题 提 出 自 己 的 观 点 work 2002"
+    },
+    {
+      "id": "cmn_hans_cn-test-1734",
+      "reference": "科学家们可以得出结论，暗物质对其他暗物质的影响方式与普通物质相同。",
+      "hypothesis": "科 学 入 家 们 可 以 得 出 结 论 案 物 质 对 其 他 案 物 质 的 影 响 方 式 与 普 动 物 质 相 同"
+    },
+    {
+      "id": "cmn_hans_cn-test-1890",
+      "reference": "大多数现代科研望远镜都是巨型设施，位于大气条件优良的偏远地区。",
+      "hypothesis": "大 多 数 千 代 科 研 望 眼 镜 都 是 巨 型 设 示 位 于 大 梯 大 起 条 件 悠 凉 的 偏 远 地 区"
+    }
+  ],
+  "limitations": "Six FLEURS read-speech clips; may overlap model development/selection. No code switching, field noise, or quantized runtime test."
+}

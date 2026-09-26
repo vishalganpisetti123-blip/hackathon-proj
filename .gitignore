@@ -1,0 +1,40 @@
+# Frontend
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/*.tsbuildinfo
+frontend/public/wasm/
+
+# Backend
+backend/.venv/
+backend/**/__pycache__/
+backend/.pytest_cache/
+*.py[cod]
+
+# Local settings and generated files
+.env
+.env.local
+.DS_Store
+.sites-runtime/
+mobile/node_modules/
+mobile/.expo/
+mobile/dist/
+mobile/android/
+mobile/ios/
+*.sqlite3*
+.local-supervisor-credentials
+.local-lan-certs/
+.local-lan-public/
+*.gguf
+*.bin
+*.apk
+training/.venv/
+training/data/
+training/cache/
+training/checkpoints/
+training/export/
+training/*.log
+frontend/public/models/fieldproof/whisper-*-small/onnx/
+frontend/public/models/fieldproof/whisper-*-small/
+.vercel/
+:memory:.ses

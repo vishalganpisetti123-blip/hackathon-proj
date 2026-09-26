@@ -1,0 +1,378 @@
+{
+  "model": "openai/whisper-small",
+  "generation": "forced selected language; greedy",
+  "metrics": {
+    "en": {
+      "clips": 6,
+      "wer": 0.07258064516129033,
+      "cer": 0.022566995768688293
+    },
+    "hi": {
+      "clips": 6,
+      "wer": 0.5637583892617449,
+      "cer": 0.23026315789473684
+    },
+    "te": {
+      "clips": 6,
+      "wer": 1.654320987654321,
+      "cer": 1.1483870967741936
+    },
+    "bn": {
+      "clips": 6,
+      "wer": 1.036697247706422,
+      "cer": 0.9706293706293706
+    },
+    "mr": {
+      "clips": 6,
+      "wer": 1.2446808510638299,
+      "cer": 0.765990639625585
+    },
+    "ta": {
+      "clips": 6,
+      "wer": 0.620253164556962,
+      "cer": 0.17397881996974282
+    },
+    "zh": {
+      "clips": 6,
+      "wer": 0.9333333333333333,
+      "cer": 0.22580645161290322
+    },
+    "es": {
+      "clips": 6,
+      "wer": 0.0625,
+      "cer": 0.011976047904191617
+    },
+    "ar": {
+      "clips": 6,
+      "wer": 0.203125,
+      "cer": 0.05420054200542006
+    }
+  },
+  "predictions": [
+    {
+      "id": "en_us-test-1904",
+      "language": "en",
+      "reference": "However, due to the slow communication channels, styles in the west could lag behind by 25 to 30 year.",
+      "hypothesis": " However, due to the slow communication channels, styles in the West could lag behind by 25 to 30 years."
+    },
+    {
+      "id": "en_us-test-1675",
+      "language": "en",
+      "reference": "All nouns, alongside the word Sie for you, always begin with a capital letter, even in the middle of a sentence.",
+      "hypothesis": " All nouns alongside the world's say for you always begin with a capital letter even in the middle of a sentence."
+    },
+    {
+      "id": "en_us-test-1950",
+      "language": "en",
+      "reference": "To the north and within easy reach is the romantic and fascinating town of Sintra and which was made famous to foreigners after a glowing account of its splendours recorded by Lord Byron.",
+      "hypothesis": " To the north and within easy reach is a romantic and fascinating town of Cintra and which was made famous to foreigners after a glowing account of its splendor is recorded by Lord Byron."
+    },
+    {
+      "id": "en_us-test-1728",
+      "language": "en",
+      "reference": "The cabbage juice changes color depending on how acidic or basic (alkaline) the chemical is.",
+      "hypothesis": " The cabbage juice changes color depending on how acidic, basic alkaline the chemical is."
+    },
+    {
+      "id": "en_us-test-1972",
+      "language": "en",
+      "reference": "Many people don't think about them as dinosaurs because they have feathers and can fly.",
+      "hypothesis": " Many people don't think about them as dinosaurs because they have feathers and can fly."
+    },
+    {
+      "id": "en_us-test-1938",
+      "language": "en",
+      "reference": "The hospital has followed protocol for infection control, including separating the patient from others to prevent possible infection of others.",
+      "hypothesis": " The hospital has followed protocol for infection control, including separating the patient from others to prevent possible infection of others."
+    },
+    {
+      "id": "hi_in-test-1766",
+      "language": "hi",
+      "reference": "कुछ अणुओं में अस्थिर केंद्रक होता है, जिसका मतलब यह है कि उनमें थोड़े या बिना किसी झटके से टूटने की प्रवृत्ति होती है,",
+      "hypothesis": " अग्वो में आज्द्टर केंद्रख होता है, जिसका मतला भी आजा की उन्मे थोडे या बिना किसी जटके से तुटनें की प्रवत्ती होती है."
+    },
+    {
+      "id": "hi_in-test-1784",
+      "language": "hi",
+      "reference": "ग्रीनलैंड को बहुत कम जगह बसाया गया था. नॉर्स सगास में वे कहते हैं कि एरिक रेड हत्या के लिए आइसलैंड से निर्वासित किया गया था, और आगे पश्चिम की यात्रा करते समय, ग्रीनलैंड मिला जिसे ग्रीनलैंड नाम दिया गया.",
+      "hypothesis": " गरीलेंड को बहुत कम जग़़ बसाया गया ता नोर्ष शगास में भे कहते हैं कि एरेक रेड रेद हत्या कि लिए आइस लेंड से निरवासित की आप या आप और आगे पश्च्ट्म की याट्र करते समय गरीलेंड मिला जिसे गरीलें"
+    },
+    {
+      "id": "hi_in-test-1718",
+      "language": "hi",
+      "reference": "ऐसी कोई वैश्विक परिभाषा नहीं है जिसके लिए निर्मित सामान एंटीक होते हैं. कुछ कर एजेंसियाँ 100 साल से पुराने सामान को एंटीक के तौर पर परिभाषित करती हैं.",
+      "hypothesis": " अएजेई कोई वैस्पिक परिवाशा नहीं है, जिसके लिए निरमिद समान अंटिक होते है, पुचकर अजंश्या स्वाव साल से पुरानि समान को अंटिक के तोर पर परिवाशित करती है."
+    },
+    {
+      "id": "hi_in-test-1778",
+      "language": "hi",
+      "reference": "टेलीविजन रिपोर्टों में प्लांट से निकलने वाला सफेद धुआँ दिखाया गया है।",
+      "hypothesis": " तेलीविशन रिपोटो में प्लाँट से निकलने वाला सबे दूए दूए गया हैर।"
+    },
+    {
+      "id": "hi_in-test-1828",
+      "language": "hi",
+      "reference": "इंटरनेट पर यह खोज 'शत्रुतापूर्ण पर्यावरण पाठ्यक्रम' के लिए अक्सर आपको एक स्थानीय कंपनी का पता प्रदान करेगी।",
+      "hypothesis": " अंटरनेट पर ये खोज सत्रुता पुर्न पर्यावरं पाटक्रम के लिये अकसर आपको एक इस धानने कमपनी का पता प्रदान करेगी"
+    },
+    {
+      "id": "hi_in-test-1666",
+      "language": "hi",
+      "reference": "अपनी सरकार के अलावा आप अन्य देशों की सरकारों की सलाह ले सकते हैं. हालाँकि, उनकी सलाह उनके नागरिकों को ध्यान में रखकर दी जाती हैं.",
+      "hypothesis": " अपनी सर्कार के लावाब अन्यदेशो की सर्कारो की सला ले सकते हैं. हलाकी उनकी सला उनके नागरिको को दियान में रक्कल दी जाती है."
+    },
+    {
+      "id": "te_in-test-1912",
+      "language": "te",
+      "reference": "చిన్న ద్వీపాలలో చాలా వరకు స్వతంత్ర దేశాలు, లేదా ఫ్రాన్స్ తో సంబంధం కలిగి ఉన్నాయి, ఇంకా వీటిని  లగ్జరీ బీచ్ రిసార్ట్ స్ అని పిలుస్తారు.",
+      "hypothesis": " ಸಾರಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿ"
+    },
+    {
+      "id": "te_in-test-1908",
+      "language": "te",
+      "reference": "కొన్ని క్రియలు ఆబ్జెక్టుల మధ్య తేడాను గుర్తించడానికి ఇది ఒక ముఖ్యమైన మార్గం.",
+      "hypothesis": " ಸಾರಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿ"
+    },
+    {
+      "id": "te_in-test-1666",
+      "language": "te",
+      "reference": "మీరు మీ స్వంతం ఆలోచనలతో కాకుండా ప్రభుత్వాల సలహా కూడా తీసుకోవాలని అనుకోవచ్చు, అయితే వారి సలహా వారి పౌరుల కోసం రూపొందించబడింది.",
+      "hypothesis": " ಸಾರಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿ"
+    },
+    {
+      "id": "te_in-test-1870",
+      "language": "te",
+      "reference": "ఈ దృశ్యాలు పిరమిడ్లపై ప్రదర్శించబడతాయి మరియు వేరే పిరమిడ్లను వెలిగించబడ్డాయి.",
+      "hypothesis": " इसे द्रुष्यालो प्रमिजल प्रदेष्यंच ताई मर्यो वेरे प्रमिजल लो वेलगंच बद्डाई"
+    },
+    {
+      "id": "te_in-test-2002",
+      "language": "te",
+      "reference": "పరికరాన్ని గాల్లో కదిలించడం ద్వారా వీడియో గేమ్స్‌లో  యాక్షన్లు మరియు కదలికలను నియంత్రించడానికి ఇది  ఆటగాళ్లకు వీలు కల్పిస్తుంది",
+      "hypothesis": " परिकरानि गाल्लो कदलिखच़ाम दवारा वीड़ो गेम्सलो अक्षन लो मरियो कदलिखचलानो नियंट्रिज़ाने की अटगालाको वील कलबिस तुए."
+    },
+    {
+      "id": "te_in-test-2006",
+      "language": "te",
+      "reference": "కాల్షియం, పొటాషియం వంటి మూలకాలను లోహాలుగా పరిగణిస్తారు. వెండి, బంగారం వంటి లోహాలు కూడా ఉన్నాయి.",
+      "hypothesis": " खाल्श्यम पटाश्यम पर पर पर पर पर पर पर पर पर पर पर पर पर पर पर पर पर पर पर पर पर पर पर पर पर पर पर पर पर पर पर पर पर पर पर पर पर पर पर पर पर पर पर पर पर पर पर पर पर पर पर पर पर पर पर पर पर �"
+    },
+    {
+      "id": "bn_in-test-1916",
+      "language": "bn",
+      "reference": "জার্মানির অনেক বেক করা খাবারগুলিতে বাদাম, হ্যাজনেলট এবং অন্যান্য বাদামের উপাদান পাওয়া যায়। পছন্দের কেকগুলি প্রায়শই একটি কাপ ভরা কফির সাথে ভাল মানায়।",
+      "hypothesis": " जर्मनेर अनेक बेक्ष़ा कहबर बूलिते बादाम, हैजनेल्द येवँं औनन्नो बादामेर उपादाम पाजाय अचन्देर केखबूली प्राइशा येक ती कापबरा कफिर साते बालोमनाय."
+    },
+    {
+      "id": "bn_in-test-1879",
+      "language": "bn",
+      "reference": "একজন শুধুমাত্র আশ্চর্য হতে পারে এই ভেবে যে যখন নতুন কিছু আসে তখন কী-বোর্ড কীরকম হবে।",
+      "hypothesis": " ḍ្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្"
+    },
+    {
+      "id": "bn_in-test-1804",
+      "language": "bn",
+      "reference": "হাইতিয়ান ইনস্টিটিউট ফর জাস্টিস অ্যান্ড ডেমোক্রেসি এর স্বতন্ত্র সমীক্ষাতে উল্লেখ করা হয়েছে যে নেপালি জাতিসংঘের শান্তিরক্ষা বাহিনী অজান্তেই হাইতিতে এই রোগটি নিয়ে এসেছিল।",
+      "hypothesis": " ḍᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃ"
+    },
+    {
+      "id": "bn_in-test-1823",
+      "language": "bn",
+      "reference": "দুটি পয়েন্টের মাঝে দুজন ড্রাইভার এবং তাদের যানের মধ্যে যে চলন ও কথাবার্তা চলে সেই বিদ্যাকেই ট্রাফিক ফ্লো বলে।",
+      "hypothesis": " 2 మారిల్లు మారిలు మారిలు మారిలు మారిలు మారిలు మారిలు మారిలు మారిలు మారిలు మారిలు మారిలు మారిలు మారిలు మా"
+    },
+    {
+      "id": "bn_in-test-1669",
+      "language": "bn",
+      "reference": "পুলিশ সুপার চন্দ্র শেখর সোলঙ্কি জানিয়েছিলেন, অভিযুক্তরা মুখ ঢাকা অবস্থায় আদালতে হাজির হয়েছিল।",
+      "hypothesis": " ḍĀĀĀĀĀĀĀĀĀĀĀĀĀĀĀĀĀĀĀĀĀĀĀĀĀĀĀĀĀĀĀĀĀĀĀĀĀĀĀĀĀĀĀĀĀĀĀĀĀĀĀĀĀĀĀĀĀĀĀĀĀĀĀĀĀĀĀĀĀĀĀĀĀĀĀĀĀĀĀĀĀĀĀĀĀĀĀĀĀĀĀĀĀĀ�"
+    },
+    {
+      "id": "bn_in-test-1692",
+      "language": "bn",
+      "reference": "জাপানের পারমানবিক সংস্থার সূত্রে জানা গিয়েছে, প্ল্যান্টটিতে তেজস্ক্রিয় সিজিয়াম এবং আয়োডিন চিহ্নিত করা হয়েছে।",
+      "hypothesis": " japaner parumanubhik shangastha shutre janagye se, planti te tejoshkire oshi ji am evong iodine chinni to kara hoese."
+    },
+    {
+      "id": "mr_in-test-1669",
+      "language": "mr",
+      "reference": "पोलिस अधीक्षक चंद्र शेखर सोलंकी यांनी सांगितले की आरोपी चेहरा झाकून घेऊन कोर्टात हजर झाला.",
+      "hypothesis": " पूलिक्स अदिक्स्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्"
+    },
+    {
+      "id": "mr_in-test-1781",
+      "language": "mr",
+      "reference": "वन्यजीवांचा विचार केल्यास मादागास्कर आतापर्यंत  सर्वात मोठे आहे आणि एक स्वतःच खंड आहे.",
+      "hypothesis": " जीवान जा विच्छर के लेज मादा गास कर आथा परेंते सरवत मुट्याई आनी एक सुट्टट खंडाई"
+    },
+    {
+      "id": "mr_in-test-1952",
+      "language": "mr",
+      "reference": "जे कोणी उंच भागात किंवा पर्वतांवरील रस्त्यावरून गाडी चालवणार आहेत, त्यांनी हिम, बर्फ किंवा गोठणबिंदूखालील तापमानाची शक्यता विचारात घ्यावी.",
+      "hypothesis": " जे कोनी उंच भागात किवा परवतन वरिल रस्ते वरुन गाडी चलर नार आहेद त्यानी हिम, बर्फ किवा गोटन बिन्दू खालिल ताप्मानाची शक्किता विचाराद ग्यावी."
+    },
+    {
+      "id": "mr_in-test-1928",
+      "language": "mr",
+      "reference": "१९७६ पर्यंत, माचू पिचूची तीस टक्के पुनर्स्थापना करण्यात आली होती आणि आजही जिर्णोद्धार सुरू आहे.",
+      "hypothesis": " आज ज़ी जिन्दर सुर्वा हे आज ज़ी जिन्दर सुर्वा हे आज ज़ी जिन्दर सुर्वा हे आज ज़ी जिन्दर सुर्वा हे आज ज़ी जिन्दर सुर्वा हे आज ज़ी जिन्दर सुर्वा है आज ज़ी जिन्दर सुर्वा है आ�"
+    },
+    {
+      "id": "mr_in-test-1934",
+      "language": "mr",
+      "reference": "तुम्ही सामान्यत: नेहमीच पर्यटक आणि विक्रेत्यांचे आवाज ऐकता. आवाज आणि प्रकाशाची गोष्ट ही अगदी एखाद्या गोष्टीच्या पुस्तकासारखी आहे.",
+      "hypothesis": " तुम्मि साम्मन्यत् नह्मिष्परेतक अनी विक्रतेंच्या अवाज अवाज अनी प्रकाशाची गुष्त ही अग्डि एक रह्णे गुष्तिंच्या पुस्त्तका साल्किया ही"
+    },
+    {
+      "id": "mr_in-test-1903",
+      "language": "mr",
+      "reference": "सर्व उपलब्ध स्त्रोत संस्थेच्या सर्व कार्यान्वित विभागांमध्ये परिणामकारक वापरल्यास कलात्मकता आणि कल्पकता दिसून येते.",
+      "hypothesis": ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"
+    },
+    {
+      "id": "ta_in-test-1792",
+      "language": "ta",
+      "reference": "இது வேதியியல் pH என அழைக்கப்படுகிறது. நீங்கள் சிவப்பு முட்டைக்கோஸ் சாற்றைப் பயன்படுத்தி ஒரு குறிகாட்டியை உருவாக்கலாம்.",
+      "hypothesis": " இது வேதியில் பிகைச்சனை அலைக்கப்படிக்குத் திரும்பு முட்டைக்கும் சாட்டை பயன்படுத்து ஒரு குரிகாட்டையை உருவாக்கலாம்"
+    },
+    {
+      "id": "ta_in-test-1891",
+      "language": "ta",
+      "reference": "லக்கா சிங் பஜனையை வழங்கினார். பாடகர், ராஜு கண்டெல்வலும் அவருடன் வந்திருந்தார்.",
+      "hypothesis": " லகாசிங் பஜனியை வழங்கினர் பாடகர் ராஜு கண்டல் வாழும் அவருடன் வந்திருந்தார்."
+    },
+    {
+      "id": "ta_in-test-1771",
+      "language": "ta",
+      "reference": "முக்கியமான மேடைகளில் இசை நிகழ்ச்சி முடிந்திருந்தாலும், விழாவின் சில பிரிவுகள் இரவு இசைப்பதைத் தொடரும்.",
+      "hypothesis": " முக்கியமான மேடிகளில் இசை நிகழ்ச்சி முடிந்து இருந்தாலும் விலாவின் சில பிரிவுகள் இரவு இசைப்பதை தொடரும்."
+    },
+    {
+      "id": "ta_in-test-1800",
+      "language": "ta",
+      "reference": "அந்தப் பாலம் செப்டெம்பர் 2017 இல் பிரேசிலிய சுங்கத்துறை சோதனைச் சாவடிகள் தயாரானதும் முழுவதுமாக செயல்படத் திட்டமிடப் பட்டுள்ளது.",
+      "hypothesis": " அந்த பாலம் சப்டம்பர் 2017, பிரசிலிய சுங்கத்துறை சோதனை சாவிடிகள் தயாரானதும் முழுவதுமாக சேல்படை திட்டம்படப்பட்டுள்ளது."
+    },
+    {
+      "id": "ta_in-test-1672",
+      "language": "ta",
+      "reference": "துணி மிகவும் வெப்பமடைதலை அனுமதிக்காதபடி கவனமாக இருக்கவும் (அதனால் துணி சுருங்கலாம் அல்லது தீவிர நிகழ்வுகளில் துணி தீயில் வாட்டப்படலாம்).",
+      "hypothesis": " துணி மேஷவும் வெப்ப மடிந்ததலை அனுமதிக்கப் பள்ளத்தி கவனமாக இருக்குவும் அதனால் துணி சுருங்கள்லாம் அல்லது தீவிர நிகழ்வுகளில் துணி தீயால் வாடப்படலாம்"
+    },
+    {
+      "id": "ta_in-test-1752",
+      "language": "ta",
+      "reference": "இதன் விளைவாக, இரண்டு(2) மீன் வகைகள் அழிந்துவிட்டன, மேலும் ஹம்ப்பேக்  சப் உட்பட மற்ற இரண்டு (2) அழியும் நிலையில் உள்ளன.",
+      "hypothesis": " இதன் மிலைவாக இரண்டு மீன் வகைகள் அளிந்துவிட்டனா மேலும் ஹம்பேக்சா புட்பட மற்சும் இரண்டு அளின் நிலையில் உள்ளனா"
+    },
+    {
+      "id": "cmn_hans_cn-test-1906",
+      "language": "zh",
+      "reference": "“这并不是告别。这是一个篇章的结束，也是新篇章的开始。”",
+      "hypothesis": "这并不是告别,这是一个偏僵的结束,也是新偏僵的开始。"
+    },
+    {
+      "id": "cmn_hans_cn-test-2006",
+      "language": "zh",
+      "reference": "钙、钾等元素属于金属，银和金等元素当然也是金属。",
+      "hypothesis": "盖甲等元素属于金属银河金等元素当然也是金属"
+    },
+    {
+      "id": "cmn_hans_cn-test-1883",
+      "language": "zh",
+      "reference": "桥下垂直净空 15 米。该项目于 2011 年 8 月完工，但直到 2017 年 3 月才开始通车。",
+      "hypothesis": "乔夏垂直进空15米盖像墨鱼2011年8月晚供但直到2017年3月才开始通车"
+    },
+    {
+      "id": "cmn_hans_cn-test-1852",
+      "language": "zh",
+      "reference": "\"适当使用博客，\"可以使学生变得更善于分析和进行思辨；通过积极回应网络材料，学生们可以在他人文章的上下文语境中找到自己的立场，并能够针对特定问题提出自己的观点（Oravec, 2002）。\"",
+      "hypothesis": "适当使用博客可以使学生变得更善于分析和进行思辨,通过积极回忆网络的材料,学生们可以在他人的文章上下文语经中找到自己的立场,并能够针对特定问题提出自己的观点。"
+    },
+    {
+      "id": "cmn_hans_cn-test-1734",
+      "language": "zh",
+      "reference": "科学家们可以得出结论，暗物质对其他暗物质的影响方式与普通物质相同。",
+      "hypothesis": "科学家们可以得出结论按物质对其他按物质的影响方式与普通物质相同"
+    },
+    {
+      "id": "cmn_hans_cn-test-1890",
+      "language": "zh",
+      "reference": "大多数现代科研望远镜都是巨型设施，位于大气条件优良的偏远地区。",
+      "hypothesis": "大多数现在科研望远镜都是巨型设施位于大体大体条件优良的偏远地区"
+    },
+    {
+      "id": "es_419-test-2001",
+      "language": "es",
+      "reference": "Se recomienda enfáticamente a los viajeros que se informen sobre cualquier riesgo de clima extremo en el área que visitan, dado que ello puede afectar sus planes de viaje.",
+      "hypothesis": " Se recomienda enfáticamente a los viajeros que se informen sobre cualquier riesgo del clima extremo en el área que visitan, dado que ello puede afectar sus planes de viaje."
+    },
+    {
+      "id": "es_419-test-1764",
+      "language": "es",
+      "reference": "Fue tanta la cantidad de gente que se concentró, que no todos pudieron acceder al funeral en la Plaza de San Pedro.",
+      "hypothesis": " Fue tanta la cantidad de gente que se concentró que no todos pudieron acceder al funeral en la plaza de San Pedro."
+    },
+    {
+      "id": "es_419-test-1770",
+      "language": "es",
+      "reference": "Esto parece tener sentido, ya que en la Tierra no se percibe su movimiento, ¿cierto?",
+      "hypothesis": " Esto parece tener sentido ya que en la tierra no se percibe su movimiento ¿cierto?"
+    },
+    {
+      "id": "es_419-test-1799",
+      "language": "es",
+      "reference": "Carpanedo participó en dos carreras individuales del campeonato aparte de la competencia del miércoles.",
+      "hypothesis": " Carpaneo participó en dos carreras individuales del campeonato a parte de la competencia del miércoles."
+    },
+    {
+      "id": "es_419-test-1820",
+      "language": "es",
+      "reference": "Hoy en día, las personas escriben mensajes en las pantallas de sus computadoras. No tienen la necesidad de, siquiera, aproximarse a un sacapuntas.",
+      "hypothesis": " Hoy en día las personas escriben mensajes en las pantallas de sus computadoras, no tienen la necesidad de siquiera aproximar sus sacapuntas."
+    },
+    {
+      "id": "es_419-test-1747",
+      "language": "es",
+      "reference": "Los luchadores compañeros de Luna también le rindieron homenaje.",
+      "hypothesis": " Los luchadores compañeros de Luna también le rindieron homenaje."
+    },
+    {
+      "id": "ar_eg-test-1993",
+      "language": "ar",
+      "reference": "تشكلت في المحيط الأطلسي اليوم عاشر عاصفة مُسماة لموسم الأعاصير الأطلسية، العاصفة شبه الاستوائية جيري.",
+      "hypothesis": " تشكلت في المحيط الأطلسي اليوم عايش رعاصفة مسمى لموسى من الأعاصير الأطلسية العاصفة شبه الاستوائية جري"
+    },
+    {
+      "id": "ar_eg-test-1730",
+      "language": "ar",
+      "reference": "تغادر الحافلات المحطة الداخلية بين المناطق (عبر النهر) في خلال اليوم على الرغم من أن معظمها وخاصة المتجهة منها إلى الشرق وجاكار/بومثانج تغادر بين 06:30 و 07:30.",
+      "hypothesis": " تغادر حافلات المحطة دخلية بين المناطق عبر النهر في خلال اليوم على الرغم من أن معظمها وخاصة المتجه منها إلى الشرق وجكارا بومثانج تغادر بينها 36 و 37"
+    },
+    {
+      "id": "ar_eg-test-1995",
+      "language": "ar",
+      "reference": "يتمُّ دعْم التعلُّم التفاعليّ في البرنامج داخليًا ويهدف إلى طرح الأسئلة والتحفيز وشرح الإجراءاتِ التي قد يكون من الصعب على الطالب التعامل معها بمفرده.",
+      "hypothesis": " يتم دعم التعلم التفاعلية في البرنامج داخليا ويهدف إلى طرح الأسئلة والتحفيظ وشرح الإجراءات التي قد يكون من الصعب على الطالب التعامل معها بمفرده"
+    },
+    {
+      "id": "ar_eg-test-1942",
+      "language": "ar",
+      "reference": "نصنع بيوتنا وملابسنا من النباتات . معظم الطعام الذي نتناوله من النباتات كذلك. بدون النباتات، لا يمكن للحيوانات البقاء.",
+      "hypothesis": " نصنع بيوتنا وملابسنا من النباتات مرزم الطعام الذي نتناوله من النباتات كذلك بدون النباتات ليمكن للحيوانات البقاء"
+    },
+    {
+      "id": "ar_eg-test-1740",
+      "language": "ar",
+      "reference": "إن عرض الصوت والضوء الهرمي واحد من أمتع الأشياء الموجودة بالمنطقة للأطفال.",
+      "hypothesis": " إن عرض الصوت والضوء الهرمي واحد من أمتع الأشياء الموجودة بالمنطقة للأطفال"
+    },
+    {
+      "id": "ar_eg-test-1771",
+      "language": "ar",
+      "reference": "تذكر أنه على الرغم من أن الموسيقى في المنصات الرئيسية قد تكون انتهت، إلا أن هناك أقسام من المهرجان قد تستمر في تشغيل الموسيقى حتى وقت متأخر من الليل.",
+      "hypothesis": " تذكر أنه على الرغم من أن الموسيقى في المنصات الرئيسية قد تكون انتهت إلا أن هناك أقسام من المهروجان قد تستمر في تشغيل الموسيقى حتى وقت متأخر من الليل"
+    }
+  ],
+  "limitations": "Six clean read-speech clips per language. No noise, code switching, spontaneous speech, or device-level quantization; WER is not comparable across non-space-delimited scripts."
+}

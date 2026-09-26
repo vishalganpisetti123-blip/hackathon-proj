@@ -1,0 +1,331 @@
+{
+  "base_model": "openai/whisper-base",
+  "device": "mps",
+  "steps": 60,
+  "train_clips": 90,
+  "test_clips": 18,
+  "trainable_parameters": 8406016,
+  "duration_seconds": 61,
+  "losses": [
+    0.7704518437385559,
+    1.3102446794509888,
+    2.0136499404907227,
+    0.7376894354820251,
+    1.6882861852645874,
+    1.9341176748275757,
+    1.2606444358825684,
+    1.2220842838287354,
+    1.7644495964050293,
+    0.5519181489944458,
+    1.5972074270248413,
+    1.7024509906768799,
+    0.42510437965393066,
+    1.6507965326309204,
+    1.8119169473648071,
+    0.2563541829586029,
+    1.5042059421539307,
+    1.7552876472473145,
+    0.541923999786377,
+    1.4529829025268555,
+    1.76376473903656,
+    0.9341276288032532,
+    1.4302222728729248,
+    2.076779842376709,
+    0.43937402963638306,
+    1.4019148349761963,
+    1.6965886354446411,
+    0.7353147268295288,
+    1.5173503160476685,
+    1.6740399599075317,
+    0.329887330532074,
+    1.4765584468841553,
+    1.812243938446045,
+    0.5545668005943298,
+    1.1995587348937988,
+    2.1350438594818115,
+    0.6401620507240295,
+    1.5389323234558105,
+    1.9697414636611938,
+    0.3384050130844116,
+    1.2051849365234375,
+    1.7720218896865845,
+    0.5473038554191589,
+    1.4557920694351196,
+    1.688449740409851,
+    0.6337060928344727,
+    0.9758730530738831,
+    1.6171443462371826,
+    0.28208792209625244,
+    1.0740066766738892,
+    1.8713656663894653,
+    1.1234818696975708,
+    1.3517578840255737,
+    1.8202332258224487,
+    1.011541724205017,
+    1.5077216625213623,
+    2.005080223083496,
+    0.5987348556518555,
+    1.637522578239441,
+    1.6501139402389526
+  ],
+  "baseline": {
+    "metrics": {
+      "en": {
+        "wer": 0.06451612903225806,
+        "cer": 0.02538787023977433,
+        "clips": 6
+      },
+      "hi": {
+        "wer": 1.516778523489933,
+        "cer": 1.0289473684210526,
+        "clips": 6
+      },
+      "te": {
+        "wer": 1.3209876543209877,
+        "cer": 1.0032258064516129,
+        "clips": 6
+      }
+    },
+    "predictions": [
+      {
+        "id": "en_us-test-1904",
+        "language": "en",
+        "reference": "However, due to the slow communication channels, styles in the west could lag behind by 25 to 30 year.",
+        "hypothesis": " However, due to the slow communication channels, styles in the West could lag behind by 25 to 30 years."
+      },
+      {
+        "id": "en_us-test-1675",
+        "language": "en",
+        "reference": "All nouns, alongside the word Sie for you, always begin with a capital letter, even in the middle of a sentence.",
+        "hypothesis": " All nouns alongside the world say for you always begin with a capital letter even the middle of a sentence."
+      },
+      {
+        "id": "en_us-test-1950",
+        "language": "en",
+        "reference": "To the north and within easy reach is the romantic and fascinating town of Sintra and which was made famous to foreigners after a glowing account of its splendours recorded by Lord Byron.",
+        "hypothesis": " To the north and within easy reach is a romantic and fascinating town of Sintra, in which was made famous, to foreigners after a glowing account of its splendorous recorded by Lord Byron."
+      },
+      {
+        "id": "en_us-test-1728",
+        "language": "en",
+        "reference": "The cabbage juice changes color depending on how acidic or basic (alkaline) the chemical is.",
+        "hypothesis": " The cabbage juice changes color depending on how acidic, basic alkaline the chemical is."
+      },
+      {
+        "id": "en_us-test-1972",
+        "language": "en",
+        "reference": "Many people don't think about them as dinosaurs because they have feathers and can fly.",
+        "hypothesis": " Many people don't think about them as dinosaurs because they have feathers and can fly."
+      },
+      {
+        "id": "en_us-test-1938",
+        "language": "en",
+        "reference": "The hospital has followed protocol for infection control, including separating the patient from others to prevent possible infection of others.",
+        "hypothesis": " The hospital has followed protocol for infection control, including separating the patient from others to prevent possible infection of others."
+      },
+      {
+        "id": "hi_in-test-1766",
+        "language": "hi",
+        "reference": "कुछ अणुओं में अस्थिर केंद्रक होता है, जिसका मतलब यह है कि उनमें थोड़े या बिना किसी झटके से टूटने की प्रवृत्ति होती है,",
+        "hypothesis": " کچھ عالموں میں آسٹھ کینڈра کوتا ہے جس کا مطلب یہاں کی ان میں تھوڑے یا بھی نہ کسی جھت کے سے ٹھٹھنے کی پرگتی ہوتی ہے"
+      },
+      {
+        "id": "hi_in-test-1784",
+        "language": "hi",
+        "reference": "ग्रीनलैंड को बहुत कम जगह बसाया गया था. नॉर्स सगास में वे कहते हैं कि एरिक रेड हत्या के लिए आइसलैंड से निर्वासित किया गया था, और आगे पश्चिम की यात्रा करते समय, ग्रीनलैंड मिला जिसे ग्रीनलैंड नाम दिया गया.",
+        "hypothesis": " Greenland got very low ground, North-Sagasam has said that he had been saved from ice lands for a raid. And he was given Greenland Greenland as a Greenland."
+      },
+      {
+        "id": "hi_in-test-1718",
+        "language": "hi",
+        "reference": "ऐसी कोई वैश्विक परिभाषा नहीं है जिसके लिए निर्मित सामान एंटीक होते हैं. कुछ कर एजेंसियाँ 100 साल से पुराने सामान को एंटीक के तौर पर परिभाषित करती हैं.",
+        "hypothesis": " Aishi koi waesbik parivasha nahi hai, jiske le nirvith saman antik hote hai, kuchkar agenshia, shau saal se puraane saman ko antik ke torpar parivashit karthi hai."
+      },
+      {
+        "id": "hi_in-test-1778",
+        "language": "hi",
+        "reference": "टेलीविजन रिपोर्टों में प्लांट से निकलने वाला सफेद धुआँ दिखाया गया है।",
+        "hypothesis": " Television Reporter may plant se nikalne wala safe dhuwad hikhaya gaya hai"
+      },
+      {
+        "id": "hi_in-test-1828",
+        "language": "hi",
+        "reference": "इंटरनेट पर यह खोज 'शत्रुतापूर्ण पर्यावरण पाठ्यक्रम' के लिए अक्सर आपको एक स्थानीय कंपनी का पता प्रदान करेगी।",
+        "hypothesis": " Internet Paryyekhoj, Satruta Purn, Paryavaran Partikram, K.A.K.R.A.P.A.P.K.P.K.P.K.P.K.P.K.P.K.P.K.P.K.P.K.P.K.P.K.P.K.P.K.P.K.P.K.P.K.P.K.P.K.P.K.P.K.P.K.P.K.P.K.P.K.P.K.P.K.P.K.P.K.P.K.P.K.P.K.P.K.P.K.P.K.P.K.P.K.P.K.P.K.P.K."
+      },
+      {
+        "id": "hi_in-test-1666",
+        "language": "hi",
+        "reference": "अपनी सरकार के अलावा आप अन्य देशों की सरकारों की सलाह ले सकते हैं. हालाँकि, उनकी सलाह उनके नागरिकों को ध्यान में रखकर दी जाती हैं.",
+        "hypothesis": " اپنی سرکار کے لواب انی دیشو کی سرکاروں کی سلا لے سکتے ہیں حلاکی ان کی سلا ان کے ناغری کو دھیان میں رکھل دی جاتی ہے"
+      },
+      {
+        "id": "te_in-test-1912",
+        "language": "te",
+        "reference": "చిన్న ద్వీపాలలో చాలా వరకు స్వతంత్ర దేశాలు, లేదా ఫ్రాన్స్ తో సంబంధం కలిగి ఉన్నాయి, ఇంకా వీటిని  లగ్జరీ బీచ్ రిసార్ట్ స్ అని పిలుస్తారు.",
+        "hypothesis": " چینندwé pala lo cháala varko svatantar deshá lo lehda france ho sambadam kali ke munnai Ṭhinka vitin lakjari beach resorts no any pillu staru."
+      },
+      {
+        "id": "te_in-test-1908",
+        "language": "te",
+        "reference": "కొన్ని క్రియలు ఆబ్జెక్టుల మధ్య తేడాను గుర్తించడానికి ఇది ఒక ముఖ్యమైన మార్గం.",
+        "hypothesis": " konni kree lo object lo matia teida lo gurtin chadanaki idao ka mukhyamainam argam"
+      },
+      {
+        "id": "te_in-test-1666",
+        "language": "te",
+        "reference": "మీరు మీ స్వంతం ఆలోచనలతో కాకుండా ప్రభుత్వాల సలహా కూడా తీసుకోవాలని అనుకోవచ్చు, అయితే వారి సలహా వారి పౌరుల కోసం రూపొందించబడింది.",
+        "hypothesis": " میرு میسфنتم آلوچنالتو کا کننا پریبتوال سالحا کورتیز کوالانے انکو وچو. آیتے واری سالحا دواری پورولا کوسم روپا دنچا بڑنگ دی."
+      },
+      {
+        "id": "te_in-test-1870",
+        "language": "te",
+        "reference": "ఈ దృశ్యాలు పిరమిడ్లపై ప్రదర్శించబడతాయి మరియు వేరే పిరమిడ్లను వెలిగించబడ్డాయి.",
+        "hypothesis": " ki dhrusya luk pirmidla pirda sincha bada thaayi mariu vere pirmidla lo velikincha bada aayi."
+      },
+      {
+        "id": "te_in-test-2002",
+        "language": "te",
+        "reference": "పరికరాన్ని గాల్లో కదిలించడం ద్వారా వీడియో గేమ్స్‌లో  యాక్షన్లు మరియు కదలికలను నియంత్రించడానికి ఇది  ఆటగాళ్లకు వీలు కల్పిస్తుంది",
+        "hypothesis": " Parikarani gaalau kadelingshadam doara, video games, action, mario, kadelikalau, niyanthrinjadani ki, idi artagavlaku, viili kalbi sunti."
+      },
+      {
+        "id": "te_in-test-2006",
+        "language": "te",
+        "reference": "కాల్షియం, పొటాషియం వంటి మూలకాలను లోహాలుగా పరిగణిస్తారు. వెండి, బంగారం వంటి లోహాలు కూడా ఉన్నాయి.",
+        "hypothesis": " gail shia potasya mati moolakala mo loo halu ga pariganistaru vendi bhangaram mati loo halu koda unnai."
+      }
+    ]
+  },
+  "adapted": {
+    "metrics": {
+      "en": {
+        "wer": 0.07258064516129033,
+        "cer": 0.02679830747531735,
+        "clips": 6
+      },
+      "hi": {
+        "wer": 1.7516778523489933,
+        "cer": 1.0394736842105263,
+        "clips": 6
+      },
+      "te": {
+        "wer": 1.3950617283950617,
+        "cer": 1.1064516129032258,
+        "clips": 6
+      }
+    },
+    "predictions": [
+      {
+        "id": "en_us-test-1904",
+        "language": "en",
+        "reference": "However, due to the slow communication channels, styles in the west could lag behind by 25 to 30 year.",
+        "hypothesis": " However, due to the slow communication channels, styles in the West could lag behind by 25 to 30 years."
+      },
+      {
+        "id": "en_us-test-1675",
+        "language": "en",
+        "reference": "All nouns, alongside the word Sie for you, always begin with a capital letter, even in the middle of a sentence.",
+        "hypothesis": " All nouns alongside the world say for you always begin with a capital letter even the middle of a sentence."
+      },
+      {
+        "id": "en_us-test-1950",
+        "language": "en",
+        "reference": "To the north and within easy reach is the romantic and fascinating town of Sintra and which was made famous to foreigners after a glowing account of its splendours recorded by Lord Byron.",
+        "hypothesis": " To the north and within easy reach is a romantic and fascinating town of Sinatra, in which was made famous, to foreigners after a glowing account of its splendorous recorded by Lord Byron."
+      },
+      {
+        "id": "en_us-test-1728",
+        "language": "en",
+        "reference": "The cabbage juice changes color depending on how acidic or basic (alkaline) the chemical is.",
+        "hypothesis": " The cabbage juice changes color depending on how acidic, basic alkaline the chemical is."
+      },
+      {
+        "id": "en_us-test-1972",
+        "language": "en",
+        "reference": "Many people don't think about them as dinosaurs because they have feathers and can fly.",
+        "hypothesis": " Many people don't think about them as dinosaurs because they have feathers and can fly."
+      },
+      {
+        "id": "en_us-test-1938",
+        "language": "en",
+        "reference": "The hospital has followed protocol for infection control, including separating the patient from others to prevent possible infection of others.",
+        "hypothesis": " The hospital has followed protocol for infection control, including separating the patient from others to prevent possible infection of others."
+      },
+      {
+        "id": "hi_in-test-1766",
+        "language": "hi",
+        "reference": "कुछ अणुओं में अस्थिर केंद्रक होता है, जिसका मतलब यह है कि उनमें थोड़े या बिना किसी झटके से टूटने की प्रवृत्ति होती है,",
+        "hypothesis": " کچھ عالموں میں آسٹھ کینڈра کوتا ہے جس کا مطلب یہاں کی ان میں تھوڑے یا بھی نہ کسی جھت کے سے ٹھٹھنے کی پرہتی ہوتی ہے"
+      },
+      {
+        "id": "hi_in-test-1784",
+        "language": "hi",
+        "reference": "ग्रीनलैंड को बहुत कम जगह बसाया गया था. नॉर्स सगास में वे कहते हैं कि एरिक रेड हत्या के लिए आइसलैंड से निर्वासित किया गया था, और आगे पश्चिम की यात्रा करते समय, ग्रीनलैंड मिला जिसे ग्रीनलैंड नाम दिया गया.",
+        "hypothesis": " گریلینڈ کو بہتکم جگہ بس آیا گیا تھا, نورس سگاس میں بے کہتے ہیں کہ اہریک رید حتیہ کے لئے آیس لین سے نرواست کیا گیا تھا اور آگے پشچم کی آترا کرتے سمیں گریلینڈ ملا جسے گریلینڈ نام دیا گیا۔"
+      },
+      {
+        "id": "hi_in-test-1718",
+        "language": "hi",
+        "reference": "ऐसी कोई वैश्विक परिभाषा नहीं है जिसके लिए निर्मित सामान एंटीक होते हैं. कुछ कर एजेंसियाँ 100 साल से पुराने सामान को एंटीक के तौर पर परिभाषित करती हैं.",
+        "hypothesis": " एक यह एक परीवाशा नहीं एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक एक"
+      },
+      {
+        "id": "hi_in-test-1778",
+        "language": "hi",
+        "reference": "टेलीविजन रिपोर्टों में प्लांट से निकलने वाला सफेद धुआँ दिखाया गया है।",
+        "hypothesis": " Television Reportom may plant se ni karnay wala safe dhu maa dhikhaa ghayar."
+      },
+      {
+        "id": "hi_in-test-1828",
+        "language": "hi",
+        "reference": "इंटरनेट पर यह खोज 'शत्रुतापूर्ण पर्यावरण पाठ्यक्रम' के लिए अक्सर आपको एक स्थानीय कंपनी का पता प्रदान करेगी।",
+        "hypothesis": " Internet Paryakhoj, Satruta Purn, Paryavaran Partikram, K.A.X.R.A.P.A.P.A.P.A.P.A.P.A.P.A.P.A.P.A.P.A.P.A.P.A.P.A.P.A.P.A.P.A.P.A.P.A.P.A.P.A.P.A.P.A.P.A.P.A.P.A.P.A.P.A.P.A.P.A.P.A.P.A.P.A.P.A.P.A.P.A.P.A.P.A.P.A.P.A.P.A.P.A.P"
+      },
+      {
+        "id": "hi_in-test-1666",
+        "language": "hi",
+        "reference": "अपनी सरकार के अलावा आप अन्य देशों की सरकारों की सलाह ले सकते हैं. हालाँकि, उनकी सलाह उनके नागरिकों को ध्यान में रखकर दी जाती हैं.",
+        "hypothesis": " اپنی سرکار کے لавاب انی دیشو کی سرکاروں کی سلا لے سکتے ہیں حالا کی ان کی سلا ان کے ناظگری کو دھان میں رکھل دی جاتی ہے"
+      },
+      {
+        "id": "te_in-test-1912",
+        "language": "te",
+        "reference": "చిన్న ద్వీపాలలో చాలా వరకు స్వతంత్ర దేశాలు, లేదా ఫ్రాన్స్ తో సంబంధం కలిగి ఉన్నాయి, ఇంకా వీటిని  లగ్జరీ బీచ్ రిసార్ట్ స్ అని పిలుస్తారు.",
+        "hypothesis": " ついなど劇場にも、 生地域の中で、 生地域の中で、 生地域の中で、 生地域の中で、 生地域の中で、 生地域の中で、 生地域の中で、 生地域の中で、 生地域の中で、 生地域の中で、 生地域の中で、 生地域の中で、 生地域の中で、 生地域の中で、 生地域の中で、 生地域の中で、 生地域の中で、 生地域の中で、 生地域の中で、 生地域の中で、 "
+      },
+      {
+        "id": "te_in-test-1908",
+        "language": "te",
+        "reference": "కొన్ని క్రియలు ఆబ్జెక్టుల మధ్య తేడాను గుర్తించడానికి ఇది ఒక ముఖ్యమైన మార్గం.",
+        "hypothesis": " konu kree lo obje klu madhya teida nung kurtin chadhan ki idao ka mukhyamainam argam."
+      },
+      {
+        "id": "te_in-test-1666",
+        "language": "te",
+        "reference": "మీరు మీ స్వంతం ఆలోచనలతో కాకుండా ప్రభుత్వాల సలహా కూడా తీసుకోవాలని అనుకోవచ్చు, అయితే వారి సలహా వారి పౌరుల కోసం రూపొందించబడింది.",
+        "hypothesis": " میرு میسفنتم آلوچنالتو کا کننا پریبتوال سالحا کورتیز کوالانے انکو آوچچو۔ آیتے واری سالحا دواری پورولا کوسم روپا دنچا بڑنگ دی۔"
+      },
+      {
+        "id": "te_in-test-1870",
+        "language": "te",
+        "reference": "ఈ దృశ్యాలు పిరమిడ్లపై ప్రదర్శించబడతాయి మరియు వేరే పిరమిడ్లను వెలిగించబడ్డాయి.",
+        "hypothesis": " ください 。"
+      },
+      {
+        "id": "te_in-test-2002",
+        "language": "te",
+        "reference": "పరికరాన్ని గాల్లో కదిలించడం ద్వారా వీడియో గేమ్స్‌లో  యాక్షన్లు మరియు కదలికలను నియంత్రించడానికి ఇది  ఆటగాళ్లకు వీలు కల్పిస్తుంది",
+        "hypothesis": " Parikarani gaalau kathalinchadam doara vidau gameslua actionlua mario kathalikalaunu niyanthurinchadani ki idae artagavalaua ko veilu kalbisthundi."
+      },
+      {
+        "id": "te_in-test-2006",
+        "language": "te",
+        "reference": "కాల్షియం, పొటాషియం వంటి మూలకాలను లోహాలుగా పరిగణిస్తారు. వెండి, బంగారం వంటి లోహాలు కూడా ఉన్నాయి.",
+        "hypothesis": " बाल अचाशे प़़़ प़़ परिगनी नहीं विन बंचार बचार बचार बचार बचार बचार बचार बचार बचार बचार बचार बचार बचार बचार बचार बचार बचार बचार बचार बचार बचार बचार बचार बचार बच"
+      }
+    ]
+  },
+  "deployed": false,
+  "limitation": "Small monolingual read-speech sample. Does not establish code-switching, field-noise or speaker-generalization accuracy. No browser/native model replaced."
+}
